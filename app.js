@@ -90,16 +90,10 @@
 // sort the array in ascending order using Array’s sort
 // method.
 
-// // Array of student scores
-// let studentScores = [85, 92, 78, 65, 88, 74, 95, 81];
+// let scoreDecending = [320,230,120,480];
 
-
-// studentScores.sort(function(a, b) {
-//     return a - b; // This sorts the array numerically in ascending order
-// });
-
-// document.write("<h3>Sorted Student Scores:</h3>");
-// document.write(studentScores.join("<br>"));
+// document.write(`<h1>Score of Students:${scoreDecending.slice(0)}<br></h1>`);
+// document.write(`<h1>Ordered Score of Students:${scoreDecending.sort()}</h1>`);
 
 
 // Qno11:Write a program to initialize an array with city names.
