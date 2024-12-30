@@ -50,20 +50,15 @@
 // // Assume that total marks are 500 for each student, display
 // // the scores & percentages of students like:
 
-// // let gamerStudentName = ["Hamza"+"<br>"+"shayyan"+"<br>"+"Rayyan"];
-// // let gamerStudentScore = [320];
-// // let gamerStudentTotalmarks = [500];
+// let squadName = ["Hamza","Ammad","Rayyan","Shayyan"];
+// let scoreStudent = [230,480,320,180];
+// let totalMarks = [500];
 
-// // sum = [gamerStudentScore* 100 / 500] ;
-
-// // document.write(`score of ${[sum]}`);
-
-// // Define arrays to store student names and scores
-// let studentNames = [];
-// let studentScores = [];
-
-// // Constant for total marks
-// const totalMarks = 500;
+// document.write(`<h1>Top 3 Student Name</h1>`);
+// document.write(`Score of ${squadName[0]} is ${scoreStudent[1]}.Percentage: ${scoreStudent[1]*100/500}%<br>`);
+// document.write(`Score of ${squadName[2]} is ${scoreStudent[2]}.Percentage: ${scoreStudent[2]*100/500}%<br>`);
+// document.write(`Score of ${squadName[3]} is ${scoreStudent[3]}.Percentage: ${scoreStudent[3]*100/500}%<br>`);
+// document.write(`Score of ${squadName[1]} is ${scoreStudent[0]}.Percentage: ${scoreStudent[0]*100/500}%<br>`
 
 // // Input student names and scores
 // for (let i = 0; i < 3; i++) {
